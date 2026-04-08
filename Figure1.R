@@ -110,7 +110,7 @@ data$id <- factor(data$id, levels = celltype_order)
 my_gradient_colors <- c("#2c7ac1", "#529fd1", "#83bfe1", "#b7ddf2","#f0faff","#fef9ef","#f9dbb4", "#f1b782", "#e67c54", "#d13f2d")
 p_main <- ggplot(data, aes(x = features.plot, y = id, size = pct.exp, color = avg.exp.scaled)) +
   geom_point(shape = 16) +
-  scale_color_gradientn(colors = my_gradient_colors, limits = c(0, 3), oob = scales::squish) +
+  scale_color_gradientn(colors = my_gradient_colors, limits = c(0, 2), oob = scales::squish) +
   theme_bw() +
   theme(
     axis.text.x = element_text(angle = 45, hjust = 1),
