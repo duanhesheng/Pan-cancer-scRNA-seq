@@ -38,14 +38,14 @@ color_pan <- c(
 )
 
 color_ec <- c(
-  "0" = "#4DBBD5",
-  "1" = "#E377C2",
-  "2" = "#00A087",
-  "3" = "#3C5488",
-  "4" = "#F39B7F",
-  "5" = "#E64B35",
-  "6" = "#91D1C2",
-  "7" = "#9467BD"
+ "PLPP1-CapEC"  = "#4DBBD5",
+ "ESM1-CapEC"   = "#E377C2",
+ "SELE-VenEC"   = "#00A087",
+ "ANO2-CapEC"   = "#3C5488",
+ "CLU-VenEC"    = "#F39B7F",
+ "LYVE1-LEC"    = "#E64B35",
+ "SEMA3G-ArtEC" = "#91D1C2",
+ "SLC2A3-CapEC" = "#9467BD"
 )
 
 color_lec <- c(
